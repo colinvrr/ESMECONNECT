@@ -1,0 +1,29 @@
+#covoiturage-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  #covoiturage-table th,
+  #covoiturage-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  #covoiturage-table th {
+    background-color: #f2f2f2;
+  }
+
+  /* Stylisation des flèches de tri */
+  .sort-up:after {
+    content: ' ▲';
+  }
+
+  .sort-down:after {
+    content: ' ▼';
+  }
+
+  /* Stylisation des liens de tri */
+  .sort-link {
+    cursor: pointer;
+  }

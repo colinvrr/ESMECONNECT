@@ -1,0 +1,27 @@
+.annonce {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    transition: transform 0.3s;
+}
+
+.annonce:hover {
+    transform: scale(1.05);
+}
+
+.annonce h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.annonce img {
+    max-width: 300px;
+    height: auto;
+}
+
+.annonce p {
+    color: #666;
+    font-size: 16px;
+}
